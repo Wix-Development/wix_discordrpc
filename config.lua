@@ -9,14 +9,15 @@
 Config = {}
 
 Config.UpdateInterval = 60000 -- Update interval in milliseconds (default: 60 seconds)
+Config.PlayerCountInterval = 5 * 60000 -- Interval to request player count from server in milliseconds (default: 5 minutes)
 
-Config.ApplicationID = '000000000000' -- Discord Application ID (If you need help refer to the documentation https://wix-development.gitbook.io/documentation/free/discord-rpc/discord-application-guide)
+Config.ApplicationID = '1349666369787924574' -- Discord Application ID (If you need help refer to the documentation https://wix-development.gitbook.io/documentation/free/discord-rpc/discord-application-guide)
 
-Config.LargeImageKey = 'large_image' -- Name of the large image assetq
-Config.LargeImageText = 'This image is big' -- Text displayed when hovering over the large image (If you need help refer to the documentation https://wix-development.gitbook.io/documentation/free/discord-rpc/discord-application-guide)
+Config.LargeImageKey = 'logo_no-background' -- Name of the large image assetq
+Config.LargeImageText = 'Wix Development' -- Text displayed when hovering over the large image (If you need help refer to the documentation https://wix-development.gitbook.io/documentation/free/discord-rpc/discord-application-guide)
 
-Config.SmallImageKey = 'small_image' -- Name of the small image asset
-Config.SmallImageText = 'This image is small' -- Text displayed when hovering over the small image (If you need help refer to the documentation https://wix-development.gitbook.io/documentation/free/discord-rpc/discord-application-guide)
+Config.SmallImageKey = 'logo_no-background' -- Name of the small image asset
+Config.SmallImageText = 'Wix Development' -- Text displayed when hovering over the small image (If you need help refer to the documentation https://wix-development.gitbook.io/documentation/free/discord-rpc/discord-application-guide)
 
 -- Details and state text with placeholders
 -- {playerName} - The name of the player
